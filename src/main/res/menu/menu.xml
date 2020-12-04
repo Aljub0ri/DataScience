@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="CGFinder" android:icon="@drawable/home_logo" android:id="@+id/CGFinder"/>
+
+    <item android:title="Propellers" android:icon="@drawable/home_logo" android:id="@+id/Propeller"/>
+
+    <item android:title="Home" android:icon="@drawable/home_logo" android:id="@+id/homepage"/>
+
+    <item android:title="Electric Motors" android:icon="@drawable/home_logo" android:id="@+id/ElectricMotorGuidelines"/>
+
+    <item android:title="Mufflers" android:icon="@drawable/home_logo" android:id="@+id/MufflerThreadActivity"/>
+
+</menu>

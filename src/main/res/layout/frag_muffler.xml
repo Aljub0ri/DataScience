@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Muffler">
+
+    <RadioGroup
+        android:id="@+id/muffler_radiogroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="85dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/muffler_magnumradio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Magnum"
+            android:textColor="#90B392"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/muffler_Os"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="OS Engines"
+            android:textColor="#90B392"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/muffler_enyaradio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Enya"
+            android:textColor="#90B392"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/muffler_YSradio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="YS Engines"
+            android:textColor="#90B392"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/muffler_title"
+        android:layout_width="406dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="2dp"
+        android:text="Muffler Thread Guide"
+        android:textAlignment="center"
+        android:textColor="#90B392"
+        android:textSize="30sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/muffler_flavortext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="51dp"
+        android:text="Please choose your engine."
+        android:textStyle="italic"/>
+
+    <TextView
+        android:id="@+id/muffler_output"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="159dp"
+        android:text="Crankshaft and Exhaust Threads:" />
+
+    <TextView
+        android:id="@+id/muffler_engine"
+        android:layout_width="115dp"
+        android:layout_height="405dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="198dp"
+        android:layout_marginBottom="0dp"
+        android:text="Engine:"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/muffler_crank"
+        android:layout_width="wrap_content"
+        android:layout_height="405dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="198dp"
+        android:text="Crank shaft Thread:"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/muffler_thread"
+        android:layout_width="121dp"
+        android:layout_height="405dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="198dp"
+        android:layout_marginEnd="0dp"
+        android:text="Muffler Thread:"
+        android:textAlignment="center" />
+
+</RelativeLayout>

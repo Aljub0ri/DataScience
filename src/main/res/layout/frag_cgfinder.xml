@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".CGFinder">
+
+    <EditText
+        android:id="@+id/cg_s"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginBottom="95dp"
+        android:ems="10"
+        android:hint="S"
+        android:inputType="numberDecimal"
+        android:textAlignment="center"
+        android:textColorHint="#90B392" />
+
+    <EditText
+        android:id="@+id/cg_r"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="138dp"
+        android:ems="10"
+        android:hint="R"
+        android:inputType="numberDecimal"
+        android:textAlignment="center"
+        android:textColorHint="#90B392" />
+
+    <TextView
+        android:id="@+id/cg_pagetitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="-3dp"
+        android:text="Center of Gravity Finder"
+        android:textAlignment="center"
+        android:textColor="#90B392"
+        android:textSize="30sp"
+        android:textStyle="bold|italic" />
+
+    <ImageView
+        android:id="@+id/cg_finder_illustration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="-25dp"
+        android:src="@drawable/cg_finder_illustration" />
+
+    <Button
+        android:id="@+id/cg_button"
+        android:layout_width="107dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="139dp"
+        android:layout_marginBottom="79dp"
+        android:text="Calculate"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/cg_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginBottom="170dp"
+        android:text="Please use the illustration above to find the values, and fill in their respective boxes below.\n
+        All values must be measured in centimeters (cm)"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/cg_t"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginBottom="51dp"
+        android:ems="10"
+        android:hint="T"
+        android:inputType="numberDecimal"
+        android:textAlignment="center"
+        android:textColorHint="#90B392" />
+
+    <TextView
+        android:id="@+id/cg_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="278dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="78dp"
+        android:text="Center of Gravity:"
+        android:textAlignment="center"
+        android:textColor="#90B392"
+        android:textStyle="bold|italic" />
+
+</RelativeLayout>
